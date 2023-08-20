@@ -1,0 +1,30 @@
+<html lang ='en'>
+  <head>
+    <meta charset="utf-8">
+    <title> Image Preview Tool </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <script src="js/scripts.js"></script>
+    <h1> Image Preview Tool </h1>
+    <h2> Please drag and drop the image onto the previewer down below or provide a url link. </h2>
+    
+    <div class="leftSection">
+      <div id="dragAndDrop">
+        <h2> Drag and Drop the File </h2>
+        <p> Drag and drop image down below in black dotted bordered box or upload file </p>
+        <input type="file" id="droppedFile" accept='image/*' onchange = "renderImageFromFile(event)">
+        <img id="renderedImage"/>
+      </div>
+    </div>
+    
+    <div class="rightSection">
+      <div id="imageLink">
+        <h2>Image Link </h2>
+        <p>Please add image URL here. </p>
+        <input type="text" id="urlLink" name='urlLink'> <button type="button" name="Submit URL" onclick="uploadImageFromURL()"/>
+        <div id="previewer"/>
+      </div>
+    </div>
+  </body>
+</html>

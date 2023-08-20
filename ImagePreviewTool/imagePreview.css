@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    max-width: 100%;
+}
+  
+.leftSection {
+    float:left;
+    width:50%;
+}
+
+.rightSection {
+    float:right;
+    width:50%;
+}
+  
+#dragAndDrop {
+    max-width: 90%;
+    position:relative;
+    overflow:hidden;
+}
+  
+#renderedImage {
+    width: 50%;
+    height: 50%;
+    margin:5px;
+    float:right;
+}
+
+#droppedFile {
+    height: 300px;
+    border-style: dotted;
+    border-color: black;
+    float: left; 
+    width: 95%;
+}
+
+#imageLink {
+    max-width: 90%;
+}

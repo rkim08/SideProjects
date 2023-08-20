@@ -1,0 +1,62 @@
+#availableTable {
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px !important;
+}
+
+.table-editable {
+    position: relative;
+}
+
+.table-editable .glyphicon {
+    font-size: 15px;
+}
+
+.table-remove {
+    color: #700;
+    cursor: pointer;
+}
+
+.table-remove:hover {
+    color: #f00;
+}
+
+.table-add {
+    color: #070;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width:5px;
+}
+
+.table-add:hover {
+    color: #0b0;
+}
+.title{
+    margin:20px;
+    padding: 10px; 
+    background: grey;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: rgba(180, 190, 203, 0.4);
+}
+
+.navbar-brand {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48px;
+    height:100%;
+}
+
+.results{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.glyphicon-plus {
+    margin-left:35px;
+}
+  
